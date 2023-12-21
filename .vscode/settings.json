@@ -1,5 +1,8 @@
 {
   "yaml.schemas": {
-    "kubernetes://schema/apps/v1%40deployment": "file:///c%3A/Users/TANAY%20SHAH/OneDrive/Desktop/PDEU/Projects/Semester%202/Microservices/Project%201/ticketing/infra/k8s/auth-depl.yaml"
+    "kubernetes://schema/apps/v1%40deployment": [
+      "file:///c%3A/Users/TANAY%20SHAH/OneDrive/Desktop/PDEU/Projects/Semester%202/Microservices/Project%201/ticketing/infra/k8s/auth-depl.yaml"
+    ],
+    "kubernetes://schema/v1%40service": "file:///c%3A/Users/TANAY%20SHAH/OneDrive/Desktop/PDEU/Projects/Semester%202/Microservices/Project%201/ticketing/infra/k8s/tickets-depl.yaml"
   }
 }

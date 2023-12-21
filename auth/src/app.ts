@@ -8,8 +8,7 @@ import { currentUserRouter } from "./routes/current-user";
 import { signinRouter } from "./routes/signin";
 import { signoutRotuer } from "./routes/signout";
 import { signupRouter } from "./routes/signup";
-import { errorHandler } from "./middlewares/error-handler";
-import { NotFoundError } from "./errors/not-found-error";
+import { errorHandler, NotFoundError } from "@chikkipikki2/common";
 
 const app = express();
 app.set("trust proxy", true); // traffic is proxied via ingress-nginx,
